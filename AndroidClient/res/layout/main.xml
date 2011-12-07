@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent" 
+              android:layout_height="fill_parent"
+              android:orientation="vertical" >
+    <ImageView android:id="@+id/image"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_weight="1" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="horizontal"
+              android:layout_weight="6" >
+        <Button android:id="@+id/stanga"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="&lt;"
+                android:layout_weight="1" />
+        <Button android:id="@+id/dreapta"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="&gt;"
+                android:layout_weight="1" />
+        <Button android:id="@+id/sus"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="^"
+                android:layout_weight="1" />
+        <Button android:id="@+id/jos"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="v"
+                android:layout_weight="1" />
+        <Button android:id="@+id/plus"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="+"
+                android:layout_weight="1" />
+        <Button android:id="@+id/minus"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="-"
+                android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
